@@ -1,0 +1,38 @@
+[
+    {
+        "question": "Kuka oli Ranskan presidentti v. 1981-1995?",
+        "categories": [
+            "Politiikka",
+            "Ranska",
+            "1980-luku",
+            "1990-luku",
+            "1900-luku"
+        ],
+        "correct": "François Mitterrand",
+        "incorrect": [
+            "Jacques Chirac",
+            "Valéry Giscard d'Estaing",
+            "Charles de Gaulle"
+        ],
+        "explanation": "Mitterrand oli vallassa 13 vuotta ja 361 päivää",
+        "iso639-1": "fi",
+        "type": 1
+    },
+    {
+        "question": "Milloin NATO on perustettu?",
+        "categories": [
+            "1900-luku",
+            "Asevoimat",
+            "Sota"
+        ],
+        "correct": "1949",
+        "incorrect": [
+            "1939",
+            "1944",
+            "1954"
+        ],
+        "explanation": "Pohjois-Atlantin sopimus allekirjoitettiin 4.4.1949 Washington D.C.:ssä",
+        "iso639-1": "fi",
+        "type": 1
+    }
+]
