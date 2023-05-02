@@ -24,7 +24,11 @@ fn main() -> mongodb::error::Result<()> {
 
     let questions = client.database("multiquiz").collection::<Document>("questions").find(doc! { "iso639-1": "fi" }, None).expect("Not found");
 
-    dbg!(questions);
+    //dbg!(questions);
+
+    for result in questions {
+        dbg!(result.unwrap());
+    }
 
     /*
     for name in client.list_database_names(None, None)? {
